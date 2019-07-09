@@ -11,15 +11,15 @@ The demo code of BMLS in the paper of "Bayesian multi-label learning with sparse
 2. We have offered the Bibtex dataset used in the paper, which is downloaded from [The Extreme Classification Repository](http://manikvarma.org/downloads/XC/XMLRepository.html) and stored in MAT format:
 
 **bibtex.mat** contains:
-* X_tr, X_te: a N by D feature (sparse and binary) matrix for N instances with D features for training and testing, respectively.
-* Y_tr, Y_te: a N by L label (sparse and binary) matrix for N instances with L labels for training and testing, respectively.
+* ```X_tr``` and ```X_te```: a N by D feature (sparse and binary) matrix for N instances with D features for training and testing, respectively.
+* ```Y_tr``` and ```Y_te```: a N by L label (sparse and binary) matrix for N instances with L labels for training and testing, respectively.
 
 **bibtex_missing_label.mat** contains:
-* Y_tr: a N by L label (sparse and binary) matrix for N instances with L labels for training, where we randomly removed 80% entries from the label matrix.
+* ```Y_tr```: a N by L label (sparse and binary) matrix for N instances with L labels for training, where we randomly removed 80% entries from the label matrix.
 
 **bibtex_missing_instance.mat** contains:
-* X_tr: a N by D feature (sparse and binary) matrix for N instances with D features for training, where we reduced the size of training instances to 20%. 
-* Y_tr: a N by L label (sparse and binary) matrix for N instances with L labels for training, where we reduced the size of training instances to 20%.
+* ```X_tr```: a N by D feature (sparse and binary) matrix for N instances with D features for training, where we reduced the size of training instances to 20%. 
+* ```Y_tr```: a N by L label (sparse and binary) matrix for N instances with L labels for training, where we reduced the size of training instances to 20%.
 
 Please prepare your own documents in the above format. If you want to use this dataset, please cite the original papers, which are cited in our paper.
 
