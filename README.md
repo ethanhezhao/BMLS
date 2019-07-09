@@ -1,6 +1,6 @@
 # BMLS
 
-The demo code of BMLS in the paper of "Bayesian multi-label learning with sparse features and labels, and label co-occurrences", _Artificial Intelligence and Statistics (AISTATS)_ 2018 [Paper](http://proceedings.mlr.press/v84/zhao18b.html).
+The demo code of BMLS in the paper of "Bayesian multi-label learning with sparse features and labels, and label co-occurrences", _Artificial Intelligence and Statistics (AISTATS)_ 2018. [Paper](http://proceedings.mlr.press/v84/zhao18b.html)
 
 # Run BMLS
 
