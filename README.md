@@ -21,7 +21,7 @@ Demo code of BMLS in the paper of "Bayesian multi-label learning with sparse fea
 * ```X_tr```: N by D feature (sparse and binary) matrix for N instances with D features for training, where we reduced the size of training instances to 20%. 
 * ```Y_tr```: N by L label (sparse and binary) matrix for N instances with L labels for training, where we reduced the size of training instances to 20%.
 
-Please prepare your own documents in the above format. If you want to use this dataset, please cite the original papers, which are cited in our paper.
+Please prepare your own datasets in the above format. If you want to use the bibtex dataset, please cite the original papers, which are cited in our paper.
 
 3. Run the demos:
 
